@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "project": {
+    "name": "thekraken-fans-20b21"
+  },
+  "api": {
+    "projectId": "o5sc575h",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/cli",
+    "@sanity/color-input",
+    "@sanity/core",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "markdown"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    }
+  ]
+}

@@ -1,37 +1,34 @@
 {
-  "name": "gatsby-datocms-demo",
-  "description": "Gatsby DatoCMS creative portfolio demo",
-  "version": "1.0.0",
-  "author": "Stefano Verna <s.verna@datocms.com>",
-  "dependencies": {
-    "dotenv": "^8.1.0",
-    "gatsby": "^2.24.81",
-    "gatsby-image": "^2.4.21",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sass": "^2.3.18",
-    "gatsby-source-datocms": "^2.2.4",
-    "gatsby-source-filesystem": "^2.3.35",
-    "gatsby-transformer-remark": "^2.8.43",
-    "node-sass": "^4.13.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-helmet": "^5.2.0",
-    "react-masonry-component": "^6.2.1",
-    "react-slick": "^0.25.2",
-    "request": "^2.88.2",
-    "slick-carousel": "^1.8.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "name": "stackbit-fjord-theme",
+  "description": "Stackbit Fjord Theme",
+  "version": "0.0.1",
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+    "dev": "next dev",
+    "develop": "next dev",
+    "fetch": "sourcebit fetch",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
   },
-  "devDependencies": {
-    "prettier": "^1.17.0"
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.15",
+    "marked": "^0.8.0",
+    "moment": "^2.24.0",
+    "moment-strftime": "^0.5.0",
+    "next": "^10.0.0",
+    "node-sass": "^4.14.1",
+    "node-sass-utils": "^1.1.3",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-html-parser": "^2.0.2",
+    "react-script-tag": "^1.1.2",
+    "sourcebit": "^0.9.0",
+    "sourcebit-source-sanity": "^0.4.3",
+    "sourcebit-target-next": "^0.5.2",
+    "sprintf-js": "^1.1.2"
   }
 }
